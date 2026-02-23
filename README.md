@@ -1,62 +1,35 @@
-# tahasiddiqui.me
+# Hey, I'm Taha.
 
-Personal portfolio website - AI Engineer & Product Builder.
+I'm an AI engineer who builds products, not just features.
 
-## About
+By day, I work on AI observability at an enterprise AI company. By night, I build things people actually use. I've shipped a consumer AI product to 100+ users, published research at IEEE, and I think most AI products fail not because the model is bad — but because nobody watches what happens after deployment.
 
-A single-page portfolio with case study detail pages, built to showcase projects, writing, and product thinking.
+This repo is my corner of the internet. The place where my work, my thinking, and my projects live.
 
-**Live at:** [tahasiddiqui-me.vercel.app](https://tahasiddiqui-me.vercel.app)
+**See it live** &rarr; [tahasiddiqui-me.vercel.app](https://tahasiddiqui-me.vercel.app)
 
-## Tech Stack
+---
 
-- **Framework:** Next.js 15 (App Router, TypeScript)
-- **Styling:** Tailwind CSS v4
-- **Animations:** Framer Motion (scroll-triggered, respects `prefers-reduced-motion`)
-- **Fonts:** Inter + Geist Mono via `next/font`
-- **Deployment:** Vercel
+### What's inside
 
-## Features
+A dark, minimal portfolio built with Next.js 15, Tailwind CSS v4, and Framer Motion. No templates. No themes. Written from scratch.
 
-- Dark theme with orange accent system
-- Responsive design (mobile-first)
-- Smooth scroll navigation with anchor links
-- Dynamic case study pages (`/case-studies/[slug]`)
-- Custom 404 and error pages
-- SEO: sitemap, robots.txt, OpenGraph metadata
-- Accessibility: focus styles, semantic HTML, keyboard navigation
-- Zero client-side JavaScript except for navigation and animations
+It has six sections — Hero, About, Projects, Case Studies, Writing, and Contact — stitched into a single scrolling page, with dedicated detail pages for each case study.
 
-## Project Structure
+### Built with
 
-```
-app/
-  layout.tsx                    # Root layout, fonts, metadata
-  page.tsx                      # Home (assembles all sections)
-  case-studies/[slug]/page.tsx  # Case study detail pages
-  not-found.tsx                 # Custom 404
-  error.tsx                     # Error boundary
-  robots.ts                     # SEO
-  sitemap.ts                    # SEO
-components/
-  layout/                       # Navbar, Footer
-  sections/                     # Hero, About, Projects, Case Studies, Writing, Contact
-  ui/                           # Badge, Button, FadeIn, Cards, SectionHeading
-  icons/                        # Social SVG icons
-lib/
-  data.ts                       # All content (projects, case studies, blog posts)
-  constants.ts                  # Nav links, social URLs, site config
-```
+Next.js 15 (App Router) / TypeScript / Tailwind CSS v4 / Framer Motion / Vercel
 
-## Running Locally
+### Run it yourself
 
 ```bash
-npm install
-npm run dev
+npm install && npm run dev
 ```
 
-Open [localhost:3000](http://localhost:3000).
+---
 
-## License
+### Let's connect
 
-MIT
+Building something interesting? Want to talk product, AI, or shipping fast?
+
+[LinkedIn](https://linkedin.com/in/connecttaha) / [GitHub](https://github.com/tahasiddiquii) / [Email](mailto:work.tahasiddiqui@gmail.com)
