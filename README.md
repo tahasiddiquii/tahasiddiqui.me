@@ -1,6 +1,6 @@
 # tahasiddiqui.me
 
-Personal portfolio website — AI Engineer & Product Builder.
+Personal portfolio website - AI Engineer & Product Builder.
 
 ## About
 
