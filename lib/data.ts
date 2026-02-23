@@ -40,14 +40,14 @@ export const projects: Project[] = [
     demoUrl: "https://spillmate.ai",
   },
   {
-    slug: "project-a",
-    title: "LLM Observability Toolkit",
+    slug: "content-engine",
+    title: "AI Content Engine",
     description:
-      "Open-source tool for monitoring LLM applications in production - born from real pain points observed across enterprise AI deployments.",
+      "Agentic workflow that scans AI news, generates content ideas, drafts posts, and schedules across platforms — built with LangGraph and Claude.",
     longDescription:
-      "Translating patterns from enterprise AI observability work into a lightweight open-source toolkit. Designed from first-hand experience watching Fortune 50 teams struggle with prompt drift, response quality degradation, and blind spots in agentic workflows.",
-    techStack: ["Python", "LangChain", "Streamlit", "Vector Databases"],
-    status: "coming-soon",
+      "A multi-agent content generation pipeline built with LangGraph. Agents scan trending AI news, generate ideas aligned to content pillars, draft posts in a consistent voice, and plan weekly calendars. Built to solve my own problem: creating consistent, high-quality content across LinkedIn and X while working a full-time job.",
+    techStack: ["Python", "LangGraph", "Claude API", "FastAPI"],
+    status: "in-progress",
   },
 ];
 
