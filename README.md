@@ -2,7 +2,7 @@
 
 I'm an AI engineer who builds products, not just features.
 
-By day, I work on AI observability at an enterprise AI company. By night, I build things people actually use. I've shipped a consumer AI product to 100+ users, published research at IEEE, and I think most AI products fail not because the model is bad — but because nobody watches what happens after deployment.
+By day, I work on AI observability at an enterprise AI company. By night, I build things. I've shipped a consumer AI product to 100+ users and published research at IEEE.
 
 This repo is my corner of the internet. The place where my work, my thinking, and my projects live.
 
