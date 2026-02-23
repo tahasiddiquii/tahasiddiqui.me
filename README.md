@@ -1,4 +1,4 @@
-# tahasiddiqui.dev
+# tahasiddiqui.me
 
 Personal portfolio website — AI Engineer & Product Builder.
 
@@ -6,7 +6,7 @@ Personal portfolio website — AI Engineer & Product Builder.
 
 A single-page portfolio with case study detail pages, built to showcase projects, writing, and product thinking.
 
-**Live at:** [tahasiddiqui.dev](https://tahasiddiqui.dev) *(deployment pending)*
+**Live at:** [tahasiddiqui-me.vercel.app](https://tahasiddiqui-me.vercel.app)
 
 ## Tech Stack
 
